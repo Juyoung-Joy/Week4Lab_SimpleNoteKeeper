@@ -13,9 +13,11 @@
     </head>
     <body>
         <h1>Simple Note Keeper</h1>
-        <h2>Edit Note</h2>
-        title: <input type="text" name="titleName"><br>
-        contents: <input type="" name="titleName">
+        <h2>View Note</h2>
+        <h3>Title: </h3> ${}
+        <h3>Contents: </h3> 
+        <br> ${} <br>
         
+        <a href="note?edit">Edit</a>       
     </body>
 </html>
